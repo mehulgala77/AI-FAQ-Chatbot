@@ -1,0 +1,52 @@
+{
+  "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Namaste", "How are you?", "Is anyone there?", "Knock Knock", "Whats up"],
+        "responses": ["Hello!", "Good to see you again", "Hi there, How can I help?"],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Cya", "See you", "Thank You", "Bye", "Have a Good Day", "Alvida"],
+        "responses": ["See you buddy.", "Talk to you later", "Goodbye!"],
+        "context_set": ""
+      },
+      {
+        "tag": "menu",
+        "patterns": ["What's on the menu?", "Could I get something?", "I would like to order something", "What should I eat?"],
+        "responses": ["Pizza on the menu!", "You can order a pizza", "Try some Pizza"],
+        "context_set": ""
+      },
+      {
+        "tag": "options",
+        "patterns": ["Which Pizzas do you have?", "What are the options?", "Which flavors?", "Suggest a good pizza mate."],
+        "responses": ["Farm House are the best sellers", "Try Farm house.", "Go for Farm House"],
+        "context_set": ""
+      },
+      {
+        "tag": "cost",
+        "patterns": ["What is the price?", "How much for that?", "price?", "What would be the cost?"],
+        "responses": ["10 bucks only", "Only for 10 bro", "10$"],
+        "context_set": ""
+      },
+      {
+        "tag": "order",
+        "patterns": ["Take my order", "Book my order", "Give one to me", "Confirm my order", "Place my order"],
+        "responses": ["Order placed", "Noted. You will be served in 10 mins", "Request you to wait Sir."],
+        "context_set": ""
+      },
+      {
+        "tag": "age",
+        "patterns": ["What is your age?", "Hold old are you?", "age?", "How old"],
+        "responses": ["I am 20 years old!", "20 years", "Just crossed twenty"],
+        "context_set": ""
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "What should I call you?", "name?", "What's your name"],
+        "responses": ["I'm James", "James", "You can call me James"],
+        "context_set": ""
+      }
+  ]
+}
